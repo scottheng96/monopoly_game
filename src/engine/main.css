@@ -1,0 +1,125 @@
+.choice-box {
+    -fx-background-color: white;
+    -fx-mark-color: blue;
+    -fx-pref-width: 200px;
+}
+
+.spinner {
+    -fx-mark-color: blue;
+}
+
+.choice-box > .label { -fx-text-fill: black; }
+
+#fancytext {
+    -fx-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, aqua 0%, red 50%);
+    -fx-stroke: black;
+    -fx-stroke-width: 1;
+    -fx-background-color: transparent;
+}
+
+#menuPane {
+    -fx-padding: 10;
+    -fx-border-style: solid inside;
+    -fx-border-width: 2;
+    -fx-border-insets: 5;
+    -fx-border-radius: 5;
+    -fx-border-color: white;
+    -fx-background-color: gray
+}
+
+.btn-primary {
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #428bca;
+    -fx-border-color: #357ebd;
+}
+
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+
+#logScrollPane{
+    -fx-background-color: #f0f8ff;
+    -fx-pref-height: 100;
+    -fx-pannable: true;
+    -fx-vbar-policy: always;
+}
+
+#scrollPaneVBox {
+    -fx-padding: 10;
+    -fx-background-color: #47b482;
+    -fx-spacing: 10;
+    -fx-border-width: 5;
+    -fx-border-color: black;
+}
+
+#playerPane{
+    -fx-background-color: white;
+    -fx-border-color: black;
+}
+
+#auctionPane{
+    -fx-padding: 200;
+    -fx-border-style: solid inside;
+    -fx-border-width: 2;
+    -fx-border-insets: 5;
+    -fx-border-radius: 5;
+    -fx-border-color: white;
+    -fx-background-color: gray
+}
+
+
+#boardPane{
+    -fx-pref-height: 550;
+    -fx-pref-width: 550;
+}
+
+
+#playerResolveCommand{
+    -fx-min-height: 100;
+    -fx-min-width: 100;
+    -fx-alignment: center;
+}
+
+#onePlayerText{
+    -fx-font-size: 30px;
+}
+
+#beginAuctionCommand{
+    -fx-pref-width: 300;
+    -fx-pref-height: 200;
+}
+
+#auctionChoiceBox{
+    -fx-pref-width: 300;
+    -fx-pref-height: 200;
+}
+
+#refuseCommand{
+    -fx-min-height: 60;
+    -fx-min-width: 60;
+    -fx-alignment: center;
+}
+
+#popupPane{
+    -fx-background-color: white;
+    -fx-alignment: center;
+    -fx-padding: 20;
+}
+
+#winningText {
+    -fx-font-size: 50px;
+    -fx-alignment: center;
+    -fx-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, aqua 0%, red 50%);
+}
+
+#auctionPopupSpinner{
+    -fx-pref-height: 100;
+    -fx-pref-width: 200;
+}
+
+
+
+
+
+
+
