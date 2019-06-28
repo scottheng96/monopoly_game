@@ -17,7 +17,9 @@ Hours Spent: 300 Hours
 * Testing for Model classes
 * View functionality: functionality of Trading, Auctioning, Managment, button logic, Popup buttons
 #### Scott: 
-* Board, tokens, player movement, player tabs, frontend data, popups
+* Board, tokens, player movement, player tabs, frontend data, popups, cards
+* Controller class and game/turn logic
+* Game variations and customization capabilities
 #### Qinzhe:
 * Splashscreens, frontend data reading, frontend panels, token choosing, frontend dice
 #### Jordan:
